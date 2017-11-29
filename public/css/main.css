@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+#server_message {
+    position: absolute;
+    left: 8px;
+    bottom: 2px;
+    width: 238px;
+    height: 22px;
+    padding: 2px;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+#log {
+    position: absolute;
+    left: 6px;
+    bottom: 30px;
+    width: 100%;
+}
+
+#log .question_href {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#log .time_stump {
+    position: absolute;
+    right: 7px;
+    color: white;
+}
+
+#site_title {
+    position: absolute;
+    right: 3px;
+    bottom: -14px;
+    color: white;
+    font-size: 14px;
+}
