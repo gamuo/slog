@@ -105,14 +105,15 @@ function calc_load()
         var load_time    = new Date();
 
         var load_time_minutes = load_time.getMinutes();
-        if (load_time_minutes % 2 == 0)
-            {
-                load_time_minutes += 2;
-            }
-        else
-            {
-                load_time_minutes += 1;
-            }
+        load_time_minutes += 1;
+//        if (load_time_minutes % 2 == 0)
+//            {
+//                load_time_minutes += 2;
+//            }
+//        else
+//            {
+//                load_time_minutes += 1;
+//            }
 
         load_time.setMinutes(load_time_minutes);
         load_time.setSeconds(08);
@@ -206,5 +207,4 @@ function callback(json)
 *Execution
 ************/
 
-//load_javascript();
 load_javascript();
