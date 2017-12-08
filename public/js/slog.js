@@ -43,7 +43,7 @@ function update_server_message()
 *function: 外部のjavascriptを読み込む
 *parametor: None
 *return: None
-*note: Stack Over Flowは不定期でFeedを更新しなくなるので、ダブりを解消する必要がある
+*note:
 ***************************************/
 function load_javascript()
     {
